@@ -1,0 +1,6 @@
+baseURL = 'https://dilinliu1116.github.io'
+languageCode = 'en-us'
+title = '欢迎来到我的世界'
+relativeURLs = true
+canonifyURLs = true
+theme = "reimu"
