@@ -1,5 +1,5 @@
-baseURL = 'https://dilinliu1116.github.io'
-languageCode = 'en-us'
+baseURL = 'https://blog.dilin.icu'
+languageCode = 'zh-cn'
 title = '欢迎来到我的世界'
 relativeURLs = true
 canonifyURLs = true
