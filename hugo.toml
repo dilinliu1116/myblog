@@ -1,6 +1,13 @@
-baseURL = 'https://blog.dilin.icu'
-languageCode = 'zh-cn'
+baseURL = 'https://www.dilin.icu'
+languageCode = 'zh-CN'
+defaultContentLanguage = 'zh-CN'
+[languages]
+[languages.zh-CN]
+languageName = '简体中文'
+weight = 1
+hasCJKLanguage = true
 title = '欢迎来到我的世界'
 relativeURLs = true
 canonifyURLs = true
 theme = "reimu"
+

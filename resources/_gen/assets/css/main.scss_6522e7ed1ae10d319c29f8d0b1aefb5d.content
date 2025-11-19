@@ -331,6 +331,14 @@ body [data-aos="zoom-in"] {
   content: "\e619";
 }
 
+.icon-behance:before {
+  content: "\e602";
+}
+
+.icon-weibo:before {
+  content: "\e62c";
+}
+
 .sidebar-toc-btn:before {
   font-family: "iconfont";
   content: "\e633";
@@ -3089,6 +3097,22 @@ mjx-container::-webkit-scrollbar {
 
 .sidebar-social-icon:hover {
   transform: scale(1.2);
+}
+
+.icon-github {
+  color: #191717;
+}
+
+[data-theme="dark"] .icon-github {
+  color: #bc88ff;
+}
+
+.icon-behance {
+  color: #1769ff;
+}
+
+.icon-weibo {
+  color: #e6162d;
 }
 
 .sidebar-menu {

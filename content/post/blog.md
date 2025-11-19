@@ -1,9 +1,10 @@
 +++
 date = '2025-11-10T02:22:47Z'
-draft = false
+draft = true
 title = 'Domain-admin for k8s'
+tags = ["kubernetes", "domain-admin"]
+categories = ["技术", "k8s"]
 +++
-
 
 # Domain-Admin 服务 Kubernetes 完整部署配置
 
