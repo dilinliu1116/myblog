@@ -1,6 +1,6 @@
 +++
 date = '2025-11-10T02:22:47Z'
-draft = true
+draft = false
 title = 'Domain-admin for k8s'
 tags = ["kubernetes", "domain-admin"]
 categories = ["技术", "k8s"]
