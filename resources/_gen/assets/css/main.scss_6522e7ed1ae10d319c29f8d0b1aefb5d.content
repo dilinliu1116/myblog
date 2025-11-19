@@ -335,8 +335,8 @@ body [data-aos="zoom-in"] {
   content: "\e602";
 }
 
-.icon-weibo:before {
-  content: "\e62c";
+.icon-tumblr:before {
+  content: "\e625";
 }
 
 .sidebar-toc-btn:before {
@@ -584,7 +584,7 @@ a, .main-nav-icon, .popup-btn-close, button {
   top: 0;
   left: 0;
   width: 100%;
-  height: 150%;
+  height: 180%;
   z-index: -2;
   user-select: none;
   display: block;
@@ -1828,6 +1828,21 @@ a.article-gallery-item,
   border-spacing: 0;
 }
 
+.article-entry div.table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.article-entry div.table-wrapper table {
+  width: max-content;
+  min-width: 100%;
+}
+
+.article-entry div.table-wrapper::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
 .article-entry th {
   font-weight: bold;
   border-bottom: 3px solid var(--color-border);
@@ -2860,7 +2875,7 @@ mjx-container::-webkit-scrollbar {
 }
 
 .post-link-card-cover-wrap .icon-globe {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 @media screen and (max-width: 767px) {
@@ -3111,8 +3126,8 @@ mjx-container::-webkit-scrollbar {
   color: #1769ff;
 }
 
-.icon-weibo {
-  color: #e6162d;
+.icon-tumblr {
+  color: #35465c;
 }
 
 .sidebar-menu {
