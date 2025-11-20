@@ -123,3 +123,10 @@ HUGO_VERSION = 0.149.0
 ---
 
 # 当有新的文档创作好后，执行git push 之后，cloudflare检测到有变更，便会自动拉取更新
+
+---
+# 主题地址：https://github.com/D-Sketon/hugo-theme-reimu
+# 参考文档：https://blog.csdn.net/qq_42185895/article/details/113780415
+# Cloudflare文档：https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site
+# Hugo官网：https://hugo.opendocs.io/hosting-and-deployment/hosting-on-cloudflare-pages/
+---
