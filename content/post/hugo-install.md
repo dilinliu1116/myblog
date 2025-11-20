@@ -93,9 +93,13 @@ categories = ["技术", "k8s"]
 # 五：将将个人博客部署到远程服务器
 ---
 1.登录github官网，创建一个新的仓库
+
 2.填写仓库地址
+
 3.将themes/reimu/下的文件夹内容cp到myblog目录下，一一对应，后续修改只需要修改外层的文件就行（主题地址有教程）
+
 4.上传到Github,在myblog目录下
+
 ```shell
 git init
 git add *
@@ -106,6 +110,7 @@ git push -u origin master
 ---
 # 六：与cloudflare结合，实现CI/CD自动部署静态页面
 1.登录cloudflare，选择Workers and Pages --> 创建应用程序 --> 选择从GitHub进行导入，选择仓库进行连接
+
 2.设置构建
 ```bash
 
