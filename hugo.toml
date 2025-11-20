@@ -11,3 +11,6 @@ relativeURLs = true
 canonifyURLs = true
 theme = "reimu"
 
+[markup.highlight]
+guessSyntax = true
+noClasses = false
